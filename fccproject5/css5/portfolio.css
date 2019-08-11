@@ -1,0 +1,168 @@
+nav{
+	width:100%;
+	display:flex;
+	position:fixed;
+	top:0px;
+	background:blue;
+	animation-name:naa;
+	animation-duration:3s;
+	animation-iteration-count:1;
+	box-shadow:0px 0px 5px 0px red;
+}
+@keyframes n{
+	20%{
+		position:relative;
+		top:-2px;
+	}
+	50%{
+		position:relative;
+		top:97px;
+	}
+}
+.logo{
+	animation-name:logos;
+	animation-duration:1s;
+}
+@keyframes logos{
+	50%{position:relative;
+		left:300px;
+		transition:ease;
+	}
+}
+.navbar ul{
+	position:relative;
+	display:flex;
+	list-style:none;
+	left:750px;
+}
+ul li{
+	padding: 0px 50px;
+}
+ul li a{
+	
+	text-decoration:none;
+	padding: 0px 15px;
+	color:red;
+	border-bottom:2px solid red;
+	border-radius:50%;
+	font-size:;
+}
+ul li a:hover{
+	border-bottom:1px solid red;
+	color:red;
+	border-radius:50%;
+}
+header{
+	position:relative;
+	margin-top:3.9%;
+	height:100vh;
+	width:100%;
+	background:#ddd;
+	align-items:justify;
+	text-align:center;
+	
+	
+}
+.intro {
+	position:relative;
+  color:blue;
+  top:40%;
+  text-decoration:none;
+  
+}
+.intro p{
+	font-family:'Open Sans', sans-serif;
+	position:relative;
+	top:-20px;
+	left:50px;
+	color:green;
+}
+ font{
+	color:red;
+	animation-name: backdiv;
+    animation-duration: .5s; 
+    animation-iteration-count:infinte;
+
+}
+@keyframes backdiv{
+	60%{
+		color:white;
+	}
+}
+ .btn{
+	position:relative;
+	top:65%;
+}
+.btn button{
+	
+	color:red;
+	border-radius:50px;
+	font-size:14px;
+	margin:15px 0px;
+	box-shadow:0px 0px 5px 5px red;
+	transition: 0.5s linear;
+}
+
+footer{
+	position:absolute;
+	top:105%;
+	height:140%;
+	width:100%;
+	background:#336699;
+	text-align:center;
+	color:red;
+}
+h2{
+	position:relative;
+	top:5px;
+	
+}
+.intro a{
+	text-decoration:none;
+}
+
+#boxes{
+}
+section{
+	display:inline-block;
+	position:relative;
+	width:200px;
+	height:250px;
+	left:-100px;
+	margin-left:200px;
+	margin-top:100px;
+	background:white;
+	border: 5px solid red;
+	border-radius:50px;
+	animation-name:blink;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+@keyframes blink{
+	50%{
+	border:5px solid blue;
+	}
+} 
+section img{
+	width:200px;
+	height:150px;
+	margin-top:0px;
+	border-radius:50px 50px 0px 0px;
+	
+}
+.level{
+	position:relative;
+	margin:56px;
+	height:40px;
+	width:100%;
+	left:-56px;
+	background:#336699;
+	border-radius:0px 0px 50px 50px;
+}
+.level h1{
+	padding:5px;
+	color:white;
+}
+.level:hover{
+	background:;
+}
