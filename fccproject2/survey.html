@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="css1/survey.css">
+</head>
+<body>
+	
+		<h1 id="title">Survey Form</h1>
+		<div id="main">
+		<p id="description">Let's know you first so that we can collect necessary information to help you : </p>
+		<form id="survey-form">
+			<div class="rowTab">
+				<div class="labels">
+					<label for="name" id="name-label">* Name :</label>
+				</div>
+				<div class="rightTab">
+						<input type="text" id="name" placeholder="Enter your name" class="input-field">
+				</div>
+			</div>
+			
+			<div class="rowTab">
+				<div class="labels">
+					<label id="email-label" for="email">* Email: </label>
+				</div>
+				<div class="rightTab">
+					<input type="email" id="email" placeholder="Enter your e-mail" class="input-field">
+				</div>
+			</div>
+			
+			<div class="rowTab">
+				<div class="labels">
+					<label id="age-label" for="age">* Age: </label>
+				</div>
+				<div class="rightTab">
+					<input type="number" id="age" placeholder="Age" min='1' max='100' class="input-field">
+				</div>
+			</div>
+			
+			<div class="rowTab">
+				<div class="labels">
+					<label for="CurrentPos">Which option best describes your current role?</label>
+				</div>
+				<div class="rightTab">
+					<select name="CurrentPos" name="currentPos" class="dropdown">
+						<option disabled value>Select an Option</option>
+						<option value="student">Student</option>
+						<option value="job">Full time Job</option>
+						<option value="job1">Part time Job</option>
+						<option value="learner">Full time Learner</option>
+						<option value="PreferNo">Prefer not to say</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="rowTab">
+				<div class="labels">
+					<label for="Recommend">Will you recommend us to your any friend if you will be satisfied?</label>
+				</div>
+				<div class="rightTab">
+				<ul style="list-style:none">
+				<li class="radio"><label>Definetly <input type="radio" name="recommend" value="1"></label></li>
+				<li class="radio"><label>May be <input type="radio" name="recommend" value="2"></label></li>
+				<li class="radio"><label>Not Sure <input type="radio" name="recommend" value="3"></label></li>
+				</ul>
+				</div>	
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+				<label>What type of design will you prefer mostly?</label>
+				</div>
+				<div class="rightTab">
+					<select name="choice" id="select1" class="dropdown">
+						<option disabled value>Selct </option>
+						<option value="1">Animated</option>
+						<option value="2">Templates</option>
+						<option value="3">Responsive</option>
+					</select>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+				<label for="plan">What type of plan duration do you want?</label>
+				</div>
+				<div class="rightTab">
+						<ul style="list-style:none">
+						<li class="checkbox"><label>One Year<input type="checkbox" value="A"></label></li>
+					<li class="checkbox"><label>Six Months<input type="checkbox" value="B"></label></li>
+					<li class="checkbox"><label>Annual Pay<input type="checkbox" value="Annual"></label></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+				<label for="ammend">The things that should be improved in future:</label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style:none">
+					<li class="checkbox"><label>Front End Project<input type="checkbox" value="1"></label></li>
+					<li class="checkbox"><label>Back End Project<input type="checkbox" value="2"></label></li>
+					<li class="checkbox"><label>Data Visualization<input type="checkbox" value="3"></label></li>
+					<li class="checkbox"><label>Challenges<input type="checkbox" value="4"></label></li>
+					<li class="checkbox"><label>Open Source Project<input type="checkbox" value="5"></label></li>
+					<li class="checkbox"><label>City MeetUp<input type="checkbox" value="6"></label></li>
+					<li class="checkbox"><label>Additional Courses<input type="checkbox" value="7"></label></li>
+				
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+				<label for="cokments">Any comments or suggestion you would like to suggest us to add in your service:</label>
+				</div>
+				<div class="rightTab">
+				<textarea name="comment" id="comment" cols="30" rows="2" class="input-field" style="height:50px;resize:vertical;" placeholder="Enter your comments here..."></textarea>
+				</div>
+			</div>
+			<button id="submit" type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
