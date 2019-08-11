@@ -1,0 +1,239 @@
+.page-wrapper{
+
+	background-color:white;
+
+}
+header{
+	position:relative;
+	height:60px;
+	width:100%;
+	float:left;
+	background-color:gray;
+}
+ul{
+	position:absolute;
+	top:15px;
+	right:25px;
+	float:right;
+	margin:5px;
+}
+
+ ul li{
+
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+}
+.nav-link{
+	text-decoration:none;
+	padding:35px;
+	font-size:20px;
+	color:black;
+}
+#hero{
+	position:relative;
+	text-align:center;
+	top:20px;
+}
+#form{
+	margin:5px;
+	padding:10px;
+	border-color:red;
+}
+.btn{
+	margin:15px;
+	padding:5px;
+	color:black;
+	border:;
+	background:;
+	width:150px;
+	font-size:18px;
+	border-radius:50px;
+	outline:none;
+}
+#email{
+	padding:15px;
+	width:300px;
+	border-radius:50px;
+	outline:none;
+}
+ img{
+	position:relative;
+	height:60px;
+	width:60px;
+	border-radius:50%;
+}
+.container{
+	position:relative;
+	width:60%;
+	top:40px;
+	left:20%;
+
+}
+.grid{
+	display:flex;
+	flex-direction:row;
+
+}
+#features{
+  margin-top: 30px;
+
+}
+
+ .icons{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 125px;
+    width: 15vw;
+	border:1px solid red;
+	border-radius:50%;
+	background:#ddd;
+    color:red;
+	padding:0px;
+	box-shadow: 0.1px 3px 3px 0.1px red;
+  }
+  .desc {
+	  position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 10px;
+  }
+
+ #how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+ }
+ iframe{
+    max-width: 560px;
+    width: 100%;
+  }
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align:center;
+}
+#tenor,#bass,#valve{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid red;
+    border-radius:15px;
+	background:#ffffff;
+	box-shadow: 1px 3px 3px 1px red;
+}
+ .level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+	  border-radius:15px;
+	  border-bottom: 2px solid red;
+	  color:red;
+    }
+
+    h2 {
+      margin-top: 15px;
+	  color:red;
+    }
+
+    ol {
+      margin: 15px 0;
+
+	}
+
+   ol li {
+	   list-style:none;
+	   padding: 5px 0;
+	   text-align:left;
+    }
+    button {
+      border: 0;
+      margin: 15px 0;
+      background-color: #f1c40f;
+      font-weight: 400;
+	}
+      button:hover {
+        background-color: orange;
+        transition: background-color 1s;
+      }
+
+footer{
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  height:30px;
+
+
+}
+
+footer ol{
+	float:left;
+    display: flex;
+    justify-content: flex-end;
+
+ }
+ footer ol li{
+
+     padding:0px 20px 0px 0px;
+	 }
+	  footer ol li a{
+		  text-decoration:none;
+		  color:blue;
+	  }
+
+  span {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  @media only screen and (max-width:768px)
+  {
+	  #features{
+
+		 	  }
+	  .grid{
+		  display:block;
+		  align-items:justify;
+	  }
+	  .icons{
+		  display:none;
+	  }
+	  #pricing{
+		  position:relative;
+		  display:block;
+		  left:20px;
+	  }
+	  #tenor,#bass,#valve{
+		  width:100%;
+	  }
+	  ul{
+		  display:none;
+	  }
+	   .desc {
+		   padding:0px;
+		   display:block;
+		   justify-content:left;
+	   }
+	  iframe{
+		  widows: 3px;00px;
+		  height:100px;
+	  }
+	  span{
+		  display:block;
+		  float:left;
+	  }
+  }
